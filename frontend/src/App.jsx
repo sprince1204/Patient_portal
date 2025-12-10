@@ -144,7 +144,13 @@ export default function App() {
                     key={doc.id}
                     className="border-b border-gray-800 hover:bg-gray-800"
                   >
-                    <td className="py-2">{doc.filename}</td>
+                    
+                      <td className="py-2 max-w-[250px] overflow-hidden text-ellipsis whitespace-nowrap"
+                      title={doc.filename}
+                      >
+                        {doc.filename}
+                    </td>
+
                     <td>{(doc.filesize / 1024).toFixed(1)} KB</td>
                     <td>{new Date(doc.created_at).toLocaleString()}</td>
                     <td>
