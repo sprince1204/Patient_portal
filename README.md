@@ -1,6 +1,13 @@
 # Patient Documents Portal
 
-A simple full-stack application that allows users to upload, list, download, and delete medical documents.
+This patient document portal allows a user to upload, view, download, and delete medical PDF/image files. The system uses:
+
+- Node.js + Express for backend API
+- SQLite for file metadata
+- Local uploads folder for file storage
+- React + Tailwind CSS for UI
+- REST APIs to manage documents
+- This project fulfills all core requirements as listed in the assignment.
 
 
 ## Features
