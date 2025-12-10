@@ -105,4 +105,19 @@ curl -X DELETE http://localhost:4000/documents/1
 - Designed for local use
 - For deployment, use S3 or a database storage
 
+## Screenshots
+
+### Upload Screen
+![Upload Screen](./screenshots/upload-screen.png)
+
+### Upload Success
+![Upload Success](./screenshots/upload-success.png)
+
+### Documents List
+![Documents List](./screenshots/Document-list.png)
+
+### Backend Running
+![Backend Running](./screenshots/backend-running.png)
+
+
 
